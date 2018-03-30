@@ -32,6 +32,6 @@ public class EighthFragment extends Fragment {
 
         ImageView eight = (ImageView)view.findViewById(R.id.fragmentEightBackground);
 
-        Picasso.get().load(R.drawable.eight).fit().centerCrop().into(eight);
+        Picasso.get().load(R.drawable.scuba).fit().centerCrop().into(eight);
     }
 }

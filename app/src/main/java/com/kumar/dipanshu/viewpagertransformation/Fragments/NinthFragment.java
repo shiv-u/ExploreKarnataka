@@ -32,6 +32,6 @@ public class NinthFragment extends Fragment {
 
         ImageView nine = (ImageView)view.findViewById(R.id.fragmentNineBackground);
 
-        Picasso.get().load(R.drawable.nine).fit().centerCrop().into(nine);
+        Picasso.get().load(R.drawable.silk).fit().centerCrop().into(nine);
     }
 }

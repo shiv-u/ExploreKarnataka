@@ -32,6 +32,6 @@ public class FourthFragment extends Fragment {
 
         ImageView four = (ImageView) view.findViewById(R.id.fragmentFourBackground);
 
-        Picasso.get().load(R.drawable.four).fit().centerCrop().into(four);
+        Picasso.get().load(R.drawable.trek).fit().centerCrop().into(four);
     }
 }

@@ -32,6 +32,6 @@ public class TenthFragment extends Fragment {
 
         ImageView ten = (ImageView)view.findViewById(R.id.fragmentTenBackground);
 
-        Picasso.get().load(R.drawable.ten).fit().centerCrop().into(ten);
+        Picasso.get().load(R.drawable.mysurudasara2).fit().centerCrop().into(ten);
     }
 }

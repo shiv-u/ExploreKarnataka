@@ -32,6 +32,6 @@ public class SixthFragment extends Fragment {
 
         ImageView six = (ImageView)view.findViewById(R.id.fragmentSixBackground);
 
-        Picasso.get().load(R.drawable.six).fit().centerCrop().into(six);
+        Picasso.get().load(R.drawable.jog).fit().centerCrop().into(six);
     }
 }

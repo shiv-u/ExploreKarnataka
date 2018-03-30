@@ -32,6 +32,7 @@ public class FifthFragment extends Fragment {
 
         ImageView five = (ImageView)view.findViewById(R.id.fragmentFiveBackground);
 
-        Picasso.get().load(R.drawable.five).fit().centerCrop().into(five);
+        Picasso.get().load(R.drawable.tiger2).fit().centerCrop().into(five);
+
     }
 }

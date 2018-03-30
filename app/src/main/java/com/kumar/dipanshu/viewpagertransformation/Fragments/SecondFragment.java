@@ -1,5 +1,6 @@
 package com.kumar.dipanshu.viewpagertransformation.Fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,7 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+
 import com.kumar.dipanshu.viewpagertransformation.R;
+import com.kumar.dipanshu.viewpagertransformation.explain;
+import com.kumar.dipanshu.viewpagertransformation.explain2;
 import com.squareup.picasso.Picasso;
 
 public class SecondFragment extends Fragment {
@@ -30,8 +34,19 @@ public class SecondFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ImageView two = (ImageView) view.findViewById(R.id.fragmentTwoBackground);
+        final ImageView two = (ImageView) view.findViewById(R.id.fragmentTwoBackground);
 
-        Picasso.get().load(R.drawable.two).fit().centerCrop().into(two);
+        Picasso.get().load(R.drawable.mysurudosa).fit().centerCrop().into(two);
+        two.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+
+                Intent intent = new Intent(two.getContext(),explain2.class);
+                two.getContext().startActivity(intent);
+
+            }
+
+
+        });
     }
 }

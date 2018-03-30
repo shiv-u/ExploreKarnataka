@@ -32,6 +32,6 @@ public class SeventhFragment extends Fragment {
 
         ImageView seven = (ImageView)view.findViewById(R.id.fragmentSevenBackground);
 
-        Picasso.get().load(R.drawable.seven).fit().centerCrop().into(seven);
+        Picasso.get().load(R.drawable.riverraft).fit().centerCrop().into(seven);
     }
 }
